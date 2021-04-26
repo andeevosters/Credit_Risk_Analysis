@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 
-## Overview of the analysis (4 pt)
+## Overview of the analysis
 Using our newly-developed skills in data preparation, statistical reasoning, and machine learning, we’re going to apply machine learning to predict credit card risk, using a credit card dataset from LendingClub, a peer-to-peer lending services company.
 
 Because of the ease in predicting a good loan outweighs the ease in predicting a risky one, we will employ different techniques to train and evaluate models with unbalanced classes. We’ll use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
@@ -14,42 +14,42 @@ A snapshot of the various techniques we’ll use to predict credit risk and comp
 	• Balanced Random Forest Classifier
 	• Easy Ensemble Classifier
 
-## Results (15 pt)
+## Results
 ### Naive Random Oversampling
 • *Balanced accuracy scores*: .84
 • *Precision*: low-risk 1.0, high-risk .03
 • *Recall*: low-risk .84, high-risk .82
-![Naive Random Oversampling Results](NaiveRandomOversampling.png)
+![Naive Random Oversampling Results](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/NaiveRandomOversampling.png)
 
 ### Cluster Centroids
 • *Balanced accuracy scores*: .84
 • *Precision*: low-risk 1.00, high-risk .02
 • *Recall*: low-risk .76, high-risk .88
-![Cluster Centroids Results](ClusterCentroids.png)
+![Cluster Centroids Results](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.png)
 
 ### SMOTE
 • *Balanced accuracy scores*: .85
 • *Precision*: low-risk 1.0, high-risk .04
 • *Recall*: low-risk .87, high-risk .82
-![SMOTE](SMOTE.png)
+![SMOTE](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/SMOTE.png)
 
 ### SMOTEENN
 • *Balanced accuracy scores*: .82 
 • *Precision*: low-risk 1.0, high-risk .01
 • *Recall*: low-risk .34, high-risk .86
-![SMOTEENN ](SMOTEENN.png)
+![SMOTEENN](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.png)
 
 ### Random Forest Classifier
 • *Balanced accuracy scores*: .996
 • *Precision*: high_risk .95, low_risk 1.0
 • *Recall*: high_risk .36, low_risk 1.0
-![Random Forest Classifier](RandomForestClassifier.png)
+![Random Forest Classifier](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/RandomForestClassifier.png)
 
 ### Easy Ensemble Ada Boost Classifier
 • *Balanced accuracy scores*: .947
 • *Precision*: high_risk .09, low_risk 1.0
 • *Recall*: high_risk .91, low_risk .95
-![Random Forest Classifier](EasyEnsembleAdaBoostClassifier.png)
+![Random Forest Classifier](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/EasyEnsembleAdaBoostClassifier.png)
 
 
 ## Summary
