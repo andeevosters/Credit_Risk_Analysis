@@ -23,37 +23,54 @@ A snapshot of the various techniques we’ll use to predict credit risk and comp
 
 ### Cluster Centroids
 • *Balanced accuracy scores*: .84
+
 • *Precision*: low-risk 1.00, high-risk .02
+
 • *Recall*: low-risk .76, high-risk .88
+
 ![Cluster Centroids Results](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.png)
 
 ### SMOTE
 • *Balanced accuracy scores*: .85
+
 • *Precision*: low-risk 1.0, high-risk .04
+
 • *Recall*: low-risk .87, high-risk .82
+
 ![SMOTE](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/SMOTE.png)
 
 ### SMOTEENN
 • *Balanced accuracy scores*: .82 
+
 • *Precision*: low-risk 1.0, high-risk .01
+
 • *Recall*: low-risk .34, high-risk .86
+
 ![SMOTEENN](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.png)
 
 ### Random Forest Classifier
 • *Balanced accuracy scores*: .996
+
 • *Precision*: high_risk .95, low_risk 1.0
+
 • *Recall*: high_risk .36, low_risk 1.0
+
 ![Random Forest Classifier](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/RandomForestClassifier.png)
 
 ### Easy Ensemble Ada Boost Classifier
 • *Balanced accuracy scores*: .947
+
 • *Precision*: high_risk .09, low_risk 1.0
+
 • *Recall*: high_risk .91, low_risk .95
+
 ![Random Forest Classifier](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/EasyEnsembleAdaBoostClassifier.png)
 
 
 ## Summary
 ### Results
+![Model Comparisons](https://github.com/andeevosters/Credit_Risk_Analysis/blob/main/Images/ModelComparisons.png)
+
 In three out of four categories (accuracy, high-risk precision, low-risk precision, and low-risk recall), the results among the six models were identical. Random Forest Classifier ranked highest, Easy Ensemble Ada Boost Classifier came in second, SMOTE in third, Naive Random Oversampling in fourth, Cluster Centroids in fifth, and SMOTEENN came in last, as the least reliable method.
 
 In the high-risk recall category, however, Easy Ensemble Ada Boost Classifier had the best result (.91), followed by Cluster Centroids (.88), and SMOTEENN (.86). Random Forest Classifier came in the lowest (.36).
